@@ -9,8 +9,34 @@
 		{
 			"name": "New Request",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "number_n",
+							"value": "50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/fibonaci/fibonaci1.php?",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"fibonaci",
+						"fibonaci1.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
 			},
 			"response": []
 		}
